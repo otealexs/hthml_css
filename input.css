@@ -1,0 +1,47 @@
+/*Archivo css para un input genérico*/
+/**/
+* { /*esto indica que afecta a la pagina entera.*/
+    margin: 0;  /*Esto indica el margen, como esta en el medio no pasa nada*/
+    padding: 0;/*Esto indica el espacio que dejar entre las cosas*/
+    box-sizing: border-box;/*indica que el tamaño de la caja por asi decirlo*/
+    font-family: 'Poppins', sans-serif; /* esto es para darle el tipo de letra*/
+}
+
+body {
+    display: flex;
+    justify-content: center;/*hace que el contenido se justifique en el centro.*/ 
+    align-items: center;/*alinea las cosas al centro */
+    min-height: 100vh; /*mueve el body en el eje y (vertical), significa que es el minimo de alto del body */
+    background:  #2c4766;;/*color de fondo*/
+
+}
+
+/*Estas dos primeras lineas son imprescindibles, "*", "body" */
+
+.input_group {
+    position: relative;
+    margin: 0 25px;
+    padding: 25px;
+}
+
+.input  {
+    width: 75%;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius:10px ;
+    background: transparent;
+    font-size: 1em;
+    border-color: #fff;
+    
+}
+
+.input:focus {
+    border-radius: 40px;
+}
+.label {
+    border-radius: 10px;
+}
+
+.label:focus {
+    border-radius: 10px;
+}
