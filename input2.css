@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.input {
+    padding: 10px;
+    background-color: transparent;
+    border: px solid #fcc23f;
+}
