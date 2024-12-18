@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="formulario.css">
+    <script src="https://kit.fontawesome.com/ecc123ed23.js" crossorigin="anonymous"></script>   
 </head>
 <body>
     <div class="contenedor">
         <h1 class="h1">Contact <span>Us</span></h1>
 
-        <div class="wrap-cont">
+    <div class="wrap-cont">
             <div class="form-box"></div>
                 <h3>Contactanos</h3>
                 <form action="">
@@ -35,23 +36,26 @@
                     </p>
                     <p>
                         <label for="Sugerencias">Sugerencias</label>
-                        <input type="text" name="Sugerencias" id="Sugerencias">
+                        <textarea class="b" name="Sugerencias" id="Sugerencias"></textarea>
                     </p>
                     <p>
-                        <button type="submit">Enviar</button>
+                        <button type="submit" class="b">Enviar</button>
                     </p>
                 </form>
-        </div>
+        
         <div class="info-box">
             <h4>Más información</h4>
             <ul>
-                <li>
+                <li class="info">
+                    <i class="fa-solid fa-phone"></i>
                     888 888 888 
                 </li>
-                <li>
+                <li class="info">
+                    <i class="fa-solid fa-envelope"></i>
                     Marques de corbera, 11
                 </li>
-                <li>
+                <li class="info">
+                    <i class="fa-solid fa-location-dot"></i>
                     website@gmail.com
                 </li>
             </ul>
@@ -62,6 +66,7 @@
                 Company.com
             </p>
         </div>
+    </div>
     </div>
 </body>
 </html>
